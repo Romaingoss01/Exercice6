@@ -15,7 +15,7 @@ export default function NewNotePage() {
       navigate('/notes');
     } catch (err) {
       console.error('Erreur lors de la création de la note', err);
-      alert('Impossible de créer la note. Vérifie ta connexion ou ton authentification.');
+      alert('Impossible de créer la note.');
     }
   };
 
